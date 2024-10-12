@@ -18,7 +18,7 @@ git commit -m "add README file"
 
 
 
-## cloning
+## Cloning
 
 we can clone in three ways : HTTPS, SSH, Github CLI
 
@@ -36,7 +36,22 @@ git clone https://github.com/srjbisht01/Ghost-learning-git.git
 cd Ghost-learning-git
 ```
 
-## commit
+> You'll need to generate a Personal Access Token (PAT). 
+https://github.com/settings/token 
+
+You will use the PAT as your password when you login. 
+
+- Give it access to Contents for Commits. 
+
+
+### SSH
+
+```ssh
+git clone git@github.com:srjbisht01/Ghost-learning-git.git
+cd Ghost-learning-git
+```
+
+## Commit
 
 when we want to commit code we can write `git commit` which will open up the commit edit message in the editor of choice.
 
@@ -55,15 +70,15 @@ Make a commit and a commit message without opening an editor
 git commit -m "added another exclamation mark"
 ```
 
-# branches
+## Branches
 
-# remotes
+## Remotes
 
-# stashing
+## Stashing
 
 ## Merging
 
-## add
+## Add
 
 when we want to stage changes that will be included in the commit we can use the `.` to add all possible files.
 ```
@@ -83,7 +98,7 @@ If you want to unstage specific files, you can use: `git reset HEAD <file>
 `
 ```
 
-> git reset will revert a git add .
+> "git reset" will revert a "git add ."
 
 
 ## Git status
