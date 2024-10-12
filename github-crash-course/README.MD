@@ -128,6 +128,11 @@ Switch branch
 git switch <branch-name>
 ```
 
+> both git checkout and git switch can be used to change the branch.  
+
+
+
+
 ## Remotes
 
 
