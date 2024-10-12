@@ -51,6 +51,40 @@ git clone git@github.com:srjbisht01/Ghost-learning-git.git
 cd Ghost-learning-git
 ```
 
+we will need to create our own SSH rsa key pair. 
+```sh
+ssh-keygen -t rsa
+```
+
+For WSL users and if you create a non default key you might need to add it.
+```sh
+eval `ssh-agent`
+ssh-add /home/srjbisht01/.ssh/alt-github_id_rsa
+``` 
+
+we can test our connection here:
+```
+ssh -T git@github.com
+```
+
+
+### Github CLI
+
+Install the CLI
+
+eg. Linux(Ubuntu)
+```sh
+sudo apt update
+sudo apt install gh
+```
+
+```
+gh auth login
+gh repo clone srjbisht01/Ghost-learning-git
+```
+
+
+
 ## Commit
 
 when we want to commit code we can write `git commit` which will open up the commit edit message in the editor of choice.
@@ -70,13 +104,35 @@ Make a commit and a commit message without opening an editor
 git commit -m "added another exclamation mark"
 ```
 
+
+
 ## Branches
+
+
+
+
+
+
 
 ## Remotes
 
+
+
+
+
 ## Stashing
 
+
+
+
+
+
 ## Merging
+
+
+
+
+
 
 ## Add
 
