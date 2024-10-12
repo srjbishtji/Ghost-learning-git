@@ -122,7 +122,7 @@ checkout the branch
 ```
 git checkout <branch-name>
 ```
-<<<<<<< HEAD
+
 
 Switch branch 
 ```
