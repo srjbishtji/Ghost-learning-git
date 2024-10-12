@@ -136,7 +136,12 @@ git switch <branch-name>
 
 ## Remotes
 
+we can add remote but often you will just add remote via upstream when adding a branch.
 
+```sh
+git remote add <name> <repository-url>
+git branch -u origin new-feature
+```
 
 
 
@@ -149,7 +154,10 @@ git switch <branch-name>
 
 ## Merging
 
-
+```
+git checkout <branch-name>
+git merge <branch-name>
+```
 
 
 
