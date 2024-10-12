@@ -29,7 +29,7 @@ mkdir /workspaces/tmp
 cd /workspaces/tmp
 ```
 
-### HTTPS : 
+### 1. HTTPS : 
 
 ```sh
 git clone https://github.com/srjbisht01/Ghost-learning-git.git
@@ -44,7 +44,7 @@ You will use the PAT as your password when you login.
 - Give it access to Contents for Commits. 
 
 
-### SSH
+### 2. SSH
 
 ```ssh
 git clone git@github.com:srjbisht01/Ghost-learning-git.git
@@ -68,7 +68,7 @@ ssh -T git@github.com
 ```
 
 
-### Github CLI
+### 3. Github CLI
 
 Install the CLI
 
