@@ -123,3 +123,12 @@ git log will show recent git commits to the git tree.
 ```
 git log
 ```
+
+
+## Push
+
+when we want to push a repo to our remote origin
+
+```
+git push
+```
