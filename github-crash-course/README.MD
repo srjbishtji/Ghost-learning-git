@@ -37,7 +37,7 @@ cd Ghost-learning-git
 ```
 
 > You'll need to generate a Personal Access Token (PAT). 
-https://github.com/settings/token 
+https://github.com/settings/tokens 
 
 You will use the PAT as your password when you login. 
 
